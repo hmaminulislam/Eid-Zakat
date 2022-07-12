@@ -7,7 +7,7 @@ p {
     font-family: 'Poppins', sans-serif;
 }
 .container {
-    width: 1150px;
+    width: 1000px;
     margin: auto;
 }
 #hero {
@@ -50,4 +50,42 @@ p {
     background: #EF233C;
     border-radius: 5px;
     color: #fff;
+}
+.donate-video {
+    background-image: url(images/Mask\ group.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    flex-basis: 42%;
+    position: relative;
+    margin-bottom: 80px;
+}
+.donate-video img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.donate-video2 {
+    background-image: url(images/Rectangle\ 245.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    flex-basis: 42%;
+    margin-bottom: 80px;
+}
+.donation {
+    padding: 100px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    height: 150vh;
+}
+.donation-content {
+    flex-basis: 42%;
+}
+.donation-content h2 {
+    font-size: 40px;
+    margin: 0;
+}
+.donation-content p {
+    margin-bottom: 30px;
 }
