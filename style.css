@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Poppins&display=swap');
+body {
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+}
+p {
+    font-family: 'Poppins', sans-serif;
+}
+.container {
+    width: 1150px;
+    margin: auto;
+}
+#hero {
+    background-image: url(images/Rectangle\ 1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    position: relative;
+}
+.overley {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: linear-gradient(90deg, #1A1A1A -0.7%, rgba(26, 26, 26, 0) 100%);
+}
+.hero-content {
+    width: 525px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.hero-content h1 {
+    color: #fff;
+    font-size: 55px;
+    font-weight: 700;
+    line-height: 75px;
+    margin: 0;
+}
+.hero-content p {
+    font-size: 18px;
+    line-height: 28px;
+    color: #fff;
+    margin-bottom: 40px;
+}
+.btn {
+    text-decoration: none;
+    padding: 12px 20px;
+    background: #EF233C;
+    border-radius: 5px;
+    color: #fff;
+}
