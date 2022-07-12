@@ -89,3 +89,95 @@ p {
 .donation-content p {
     margin-bottom: 30px;
 }
+.lives-title {
+    width: 665px;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 70px;
+}
+.lives-title h2 {
+    font-size: 40px; 
+}
+.lives {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.lives-box {
+    flex-basis: 42%;
+    display: flex;
+    background: #FEF4F5;
+    border-radius: 10px;
+    padding: 25px;
+    margin-bottom: 20px;
+}
+.lives-icon {
+    flex-basis: 15%;
+}
+.lives-content {
+    flex-basis: 80%;
+}
+.lives-content h4{
+    margin: 0;
+}
+.lives-content p {
+    margin-top: 5px;
+}
+.gallery {
+    display: flex;
+    justify-content: space-between;
+    padding: 100px 0;
+}
+.gallery img {
+    width: 31%;
+}
+.extend-title h2 {
+    width: 800px;
+    font-size: 40px;
+    margin: auto;
+    text-align: center;
+}
+.extend-title p {
+    width: 500px;
+    margin: 23px auto;
+    text-align: center;
+}
+.extend {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+.extend-box {
+    flex-basis: 31%;
+    border: 1px solid #e4e3e3;
+    border-radius: 10px;
+    margin-bottom: 100px;
+}
+.extend-box img {
+    width: 100%;
+}
+.extend-box a {
+    color: #EF233C;
+    font-weight: 600;
+    margin-left: 20px;
+    display: block;
+    padding-bottom: 35px;
+}
+.extend-box h4 {
+    margin-left: 20px;
+}
+.extend-box p {
+    margin-left: 20px;
+}
+footer {
+    background-color: #000;
+    text-align: center;
+    padding: 40px;
+}
+footer h3 {
+    color:#EF233C;
+    font-size: 30px;
+}
+footer p {
+    color: #fff;
+}
